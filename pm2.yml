@@ -1,0 +1,5 @@
+apps:
+  - name: "mhc-wui"
+    script: "app.js"
+    exec_mode: "cluster"
+    instances: 0

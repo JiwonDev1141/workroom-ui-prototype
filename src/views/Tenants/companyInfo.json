@@ -1,0 +1,7 @@
+[
+  { "companyName": "rwit", "companyCode": "RW-00001", "companyNumber": 1 },
+  { "companyName": "hdm", "companyCode": "HD-00001", "companyNumber": 2 },
+  { "companyName": "naver", "companyCode": "NA-00001", "companyNumber": 3 },
+  { "companyName": "kakao", "companyCode": "KA-00001", "companyNumber": 4 },
+  { "companyName": "google", "companyCode": "GO-00001", "companyNumber": 5 }
+]

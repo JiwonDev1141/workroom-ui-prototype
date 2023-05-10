@@ -1,0 +1,129 @@
+[
+  {
+    "settingCategory" : "serviceInfo",
+     "datas":[
+      {
+        "serviceName": "제주해녀",
+        "serviceCode": "JD-00001",        
+        "datas": [
+          {
+            "grade": [
+              { "grade": "상군", "code": "2" },
+              { "grade": "중군", "code": "3" },
+              { "grade": "하군", "code": "4" }
+            ]
+          },
+          {
+            "managementRange": [
+              { "range": "지역1", "code": "aa0" },
+              { "range": "지역2", "code": "aa1" },
+              { "range": "지역3", "code": "aa2" },
+              { "range": "지역4", "code": "aa3" }
+            ]
+          },
+          {
+            "deviceCategory": [
+              { "deviceName": "watch", "code": "a001" },
+              { "deviceName": "gateway", "code": "a002" }
+            ]
+          },
+          {
+            "heartRate": {
+              "경고최대값": 130,
+              "경고최소값": 70,
+              "정상최대값": 129,
+              "정상최소값": 71
+            }
+          },
+          {
+            "oxygen": {
+              "경고최대값": 101,
+              "경고최소값": 90,
+              "정상최대값": 100,
+              "정상최소값": 91
+            }
+          }
+        ]
+      },
+      {
+        "serviceName": "미르메타",
+        "serviceCode": "MR-00001",
+        "datas": [
+          {
+            "grade": [
+              { "grade": "상군", "code": "2" },
+              { "grade": "중군", "code": "3" },
+              { "grade": "하군", "code": "4" }
+            ]
+          },
+          {
+            "managementRange": [
+              { "Range": "선박1", "code": "0" },
+              { "Range": "선박2", "code": "1" },
+              { "Range": "선박3", "code": "2" },
+              { "Range": "선박4", "code": "3" }
+            ]    
+          },
+          {
+            "deviceCategory": [
+              { "deviceName": "watch", "code": "a001" },
+              { "deviceName": "gateway", "code": "a002" }
+            ]
+          },
+          {
+            "heartRate": {
+              "경고최대값": 130,
+              "경고최소값": 70,
+              "정상최대값": 129,
+              "정상최소값": 71
+            }
+          },
+          {
+            "oxygen": {
+              "경고최대값": 101,
+              "경고최소값": 90,
+              "정상최대값": 100,
+              "정상최소값": 91
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "settingCategory" : "userGrade",
+    "datas": [
+      { "userGradeName": "플랫폼운영자", "gradeCode": "0" },
+      { "userGradeName": "서비스제공자", "gradeCode": "1" },
+      { "userGradeName": "지역담당자", "gradeCode": "2" },
+      { "userGradeName": "현장관리자", "gradeCode": "3" }
+    ]
+  },
+  {"settingCategory":"companyInfo",
+  "datas": [
+      { "companyName": "rwit", "companyCode": "RW-00001" },
+      { "companyName": "hdm", "companyCode": "HD-00001" },
+      { "companyName": "naver", "companyCode": "NA-00001" },
+      { "companyName": "kakao", "companyCode": "KA-00001" },
+      { "companyName": "google", "companyCode": "GO-00001" },
+      { "companyName": "google", "companyCode": "GO-00001" }
+    ]
+  },
+
+  {"settingCategory":"messageTopic",
+    "datas":[
+      { "messageTopicName": "A", "code": "", "serviceCode": "??" },
+      { "messageTopicName": "B", "code": "??", "serviceCode": "??" },
+      { "messageTopicName": "C", "code": "??", "serviceCode": "??" },
+      { "messageTopicName": "D", "code": "??", "serviceCode": "??" }
+    ]
+  }
+    {
+      "settingCategory": "deviceStatusCode",
+      "datas":["사용중", "미사용중"]
+    },
+    {
+      "settingCategory": "deviceUse",
+      "datas":["사용중", "미사용중"]
+    }  
+]
