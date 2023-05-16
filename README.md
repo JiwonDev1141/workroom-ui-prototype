@@ -24,8 +24,9 @@ WORKROOM
 - [x] 회원 가입
 - [ ] 비밀번호 찾기
 - [ ] 회원 탈퇴
+- [ ] 다국어 지원
 
-### reference: Commit Message Rules
+### Reference: Commit Message Rules
 
 - ADD: 새로운 기능 추가
 - FIX: 기존 기능 수정

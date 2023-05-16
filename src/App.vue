@@ -13,35 +13,35 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 -->
 <template>
-	<sidenav v-if="showSidenav" :custom_class="color" :class="[isRTL ? 'fixed-end' : 'fixed-start']" />
+	<!-- <sidenav v-if="showSidenav" :custom_class="color" :class="[isRTL ? 'fixed-end' : 'fixed-start']" /> -->
 	<main class="main-content position-relative max-height-vh-100 h-100 overflow-x-hidden">
 		<!-- nav -->
-		<navbar
+		<!-- <navbar
 			v-if="showNavbar"
 			:class="[isNavFixed ? navbarFixed : '', isAbsolute ? absolute : '']"
 			:color="isAbsolute ? 'text-white opacity-8' : ''"
 			:min-nav="navbarMinimize"
-		/>
+		/> -->
 		<router-view />
-		<app-footer v-show="showFooter" />
-		<configurator :toggle="toggleConfigurator" :class="[showConfig ? 'show' : '', hideConfigButton ? 'd-none' : '']" />
+		<!-- <app-footer v-show="showFooter" />
+		<configurator :toggle="toggleConfigurator" :class="[showConfig ? 'show' : '', hideConfigButton ? 'd-none' : '']" /> -->
 	</main>
 </template>
 <script>
 import { mapMutations, mapState } from "vuex";
-import Sidenav from "./examples/Sidenav";
+// import Sidenav from "./examples/Sidenav";
 import router from "./router";
-import Configurator from "@/examples/Configurator.vue";
-import Navbar from "@/examples/Navbars/Navbar.vue";
-import AppFooter from "@/examples/Footer.vue";
+// import Configurator from "@/examples/Configurator.vue";
+// import Navbar from "@/examples/Navbars/Navbar.vue";
+// import AppFooter from "@/examples/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Sidenav,
-    Configurator,
-    Navbar,
-    AppFooter,
+    // Sidenav,
+    // Configurator,
+    // Navbar,
+    // AppFooter,
   },
   computed: {
     ...mapState([
@@ -77,7 +77,7 @@ export default {
       if (localStorage.getItem("accessToken")) {
         router.push("dashboard");
       } else {
-        router.push("sign-in");
+        router.push("onboarding");
       }
     };
 

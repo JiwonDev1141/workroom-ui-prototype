@@ -1,14 +1,16 @@
 <template>
-	<default-dashboard />
+	<Onboarding />
 </template>
 
 <script>
-import DefaultDashboard from "@/views/dashboards/Default.vue";
+import Onboarding from './Onboarding.vue';
+
+
 
 export default {
   name: "Home",
   components: {
-    DefaultDashboard,
-  },
+    Onboarding
+},
 };
 </script>
