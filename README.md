@@ -1,6 +1,12 @@
-# boilerplate-backoffice-wui
+# workroom-ui-prototype
 
-- Vue3 기반의 Web UI 보일러 플레이트.
+## 프로젝트 설명
+
+```
+긱워커들의 이상적인 협업툴
+WORKROOM
+```
+- workroom 프로젝트의 UI Part 입니다.
 
 ## Tech Stack
 
