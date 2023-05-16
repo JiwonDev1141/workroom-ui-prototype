@@ -34,4 +34,6 @@ WORKROOM
 - PERF: 성능 개선 작업
 - REVERT: 커밋 취소
 
+```
 (ex) git commit -m "[ADD] 버튼 추가"
+```
