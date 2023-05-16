@@ -6,7 +6,7 @@
 긱워커들의 이상적인 협업툴
 WORKROOM
 ```
-- workroom 프로젝트의 UI Part 입니다.
+- workroom 프로젝트의 UI Part 프로토타입
 
 ## Tech Stack
 
