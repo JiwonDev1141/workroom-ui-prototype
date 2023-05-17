@@ -15,7 +15,8 @@ WORKROOM
 - [x] Prettier
 - [x] Bootstrap (Vue Material Design)
 - [x] Chart.js
-
+- [x] TailwindCSS
+ 
 ## 기능
 
 ### 공통
