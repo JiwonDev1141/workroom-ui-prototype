@@ -9,4 +9,5 @@
        extend: {},
      },
      plugins: [],
+     important: false,
    }

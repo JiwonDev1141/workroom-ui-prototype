@@ -6,7 +6,11 @@ import Profile from "../views/Profile.vue";
 import SignIn from "../views/SignIn.vue";
 import SignUp from "../views/SignUp.vue";
 import Users from "../views/Users/Users.vue";
-import Onboarding from "../views/Onboarding.vue";
+import Onboarding from "../views/Onboarding/Onboarding.vue";
+import Onboarding2 from "../views/Onboarding/Onboarding2.vue";
+import Onboarding3 from "../views/Onboarding/Onboarding3.vue";
+
+
 
 // const shouldLoggedIn = () => (to, from, next) => {
 //   console.log(localStorage.getItem("accessToken"));
@@ -29,6 +33,16 @@ const routes = [
     name: "온보딩",
     component: Onboarding,
     // beforeEnter: shouldLoggedIn(),
+  },
+  {
+    path: "/onboarding2",
+    name: "온보딩2",
+    component: Onboarding2,
+  },
+  {
+    path: "/onboarding3",
+    name: "온보딩3",
+    component: Onboarding3,
   },
   {
     path: "/dashboard",

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Onboarding from './Onboarding.vue';
+import Onboarding from './Onboarding/Onboarding.vue';
 
 
 
